@@ -11,7 +11,7 @@ body {
   padding: 0px;
   box-sizing: border-box; }
 
-img {
+images {
   max-width: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -132,16 +132,16 @@ h2 {
       animation-fill-mode: both;
       animation-name: fadeInUp;
       top: 87px; }
-      .slider .carousel-item ._kl_gh_er img {
+      .slider .carousel-item ._kl_gh_er images {
         opacity: 1;
         width: 100%; }
         @media screen and (max-width: 768px) {
-          .slider .carousel-item ._kl_gh_er img {
+          .slider .carousel-item ._kl_gh_er images {
             width: 64%; } }
-    .slider .carousel-item img {
+    .slider .carousel-item images {
       opacity: 0.1; }
       @media screen and (max-width: 768px) {
-        .slider .carousel-item img {
+        .slider .carousel-item images {
           opacity: 0.4; } }
 
 /* ================================ Section CSS =============================== */
@@ -188,7 +188,7 @@ h2 {
       display: inline-block; }
   ._po_jy_fr ._cs_we_er {
     padding: 20px 0px; }
-    ._po_jy_fr ._cs_we_er img {
+    ._po_jy_fr ._cs_we_er images {
       width: 100%; }
 
 .services-01 {
@@ -357,7 +357,7 @@ h2 {
           padding: 0px 7px; }
           .bg-02 .team-main-box .team-content-box ul li i {
             color: #e1ad3d; }
-    .bg-02 .team-main-box img {
+    .bg-02 .team-main-box images {
       width: 100%; }
 
 .bg-03 {
@@ -623,7 +623,7 @@ footer {
     cursor: pointer;
   }
   
-  .grid figure img {
+  .grid figure images {
     position: relative;
     display: block;
     min-height: 100%;
@@ -683,4 +683,58 @@ footer {
     font-size: 68.5%;
   }
   
-  
+  .icono1{
+    background-image: url("../images/en5.png");
+    background-size: 100%;
+    height: 140px;
+    width: 140px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin-left: 110px;
+}
+
+.icono2{
+  background-image: url("../images/en4.png");
+  height: 140px;
+  width: 140px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  margin-left: 100px;
+}
+.icono3{
+  background-image: url("../images/en3.png");
+  height: 140px;
+  width: 140px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  margin-left: 100px;
+}
+.icono4{
+  background-image: url("../images/en2.png");
+  background-size: 100%;
+  height: 140px;
+  width: 140px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  margin-left: 110px;
+}
+.icono5{
+  background-image: url("../images/en6.png");
+  height: 140px;
+  width: 140px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  margin-left: 100px;
+}
+.icono6 {
+  background-image: url("../images/en1.png");
+  height: 140px;
+  width: 140px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  margin-left: 100px;
+}
